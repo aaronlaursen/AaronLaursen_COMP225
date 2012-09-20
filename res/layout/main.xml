@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:id="@+id/locout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World, DroidHash"
+            android:paddingBottom="10dip"
+            />
+    <TextView
+            android:id="@+id/curloc"
+            android:text="Your Loc: "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            />
+    <TextView
+            android:id="@+id/djiav"
+            android:text="Dow Jones open: "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            />
+    <TextView
+            android:id="@+id/destloc"
+            android:text="Destination: "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            />
+    <TextView
+            android:id="@+id/status"
+            android:text="Your status: "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"/>
+    <Button
+            android:id="@+id/mapbut"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Google Maps"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            />
+</LinearLayout>
+
